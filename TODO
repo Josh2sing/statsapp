@@ -1,0 +1,20 @@
+Main Ideas: 
+user created events that I can have daily checkmarks to 
+some events will have number abilities
+overall goal to track progression of whatever events over time
+
+Examples:
+    1. Tracking water drinking, I can create an event and maybe give it a number tracker and a unit of oz per daily
+    2. Overall day feeling have a slider for the current feeling of the day 0-10
+    3. Track lifts or lift consistency to see how much I have been training
+
+Other goals:
+    1. Add graph functionality to view from certain points
+        a. ie start date to current / YTD
+    2. Add widgets (if possible) to have quick access
+
+Application Flow: 
+    Login Page (Keep user data so no constant login) 
+    -> Dashboard (View all current stats desiring to track)
+    -> MyProgress (View all graphs YTD and so on)
+    -> AddEvent (Page to create events) *think about more functionality when I can
