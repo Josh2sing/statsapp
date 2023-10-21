@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+font-family: monospace;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -14,25 +16,49 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fefefe;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer{
+  background-color: white;
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-evenly;
+  position: absolute;
+  width: 100% !important;
+}
+
+footer button{
+}
+
+h1{
+  font-size: 48px;
+}
+
+.button{
+  color: white;
+  width: 80%;
+  background-color: rgb(184, 125, 73);
+  border-radius: 1rem;
+  height: 70px;
+  font-size: large;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.button:active{
+  opacity: 2%;
+  transform: translate(10, 10);
+}
+
+.main-container{
+  height: 60vh;
+  overflow: auto;
 }
